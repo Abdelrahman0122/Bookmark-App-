@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-left: 5%;
+    color: #AAA
+}
+
+.landing{
+    background-color: #EEE;
+}
+p{
+    font-weight: bolder;
+}
+input[type=text], select {
+    width: 80%;
+    padding: 2px 10px;
+   
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .tasks {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+    width: 85%;
+    margin: auto;
+  }
+  .tasks .task {
+    background-color: #EEE;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    margin-left: 5%;
+    padding-left: 5%;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .tasks .task:hover {
+    background-color: #f7f7f7;
+  }
+  .tasks .task.done {
+    opacity: 0.5;
+  }
+  .tasks .task span {
+    text-align: center;
+    height: 5vh;
+    width: 10%;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 12px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5%;
+  }
+  .tasks .task a {
+
+    text-align: center;
+    height: 5vh;
+    width: 10%;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #1167c4;
+    color: white;
+    padding: 10px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-left: 5%;
+    text-decoration: none;
+  }
+  .div{
+    display: none;
+  }
